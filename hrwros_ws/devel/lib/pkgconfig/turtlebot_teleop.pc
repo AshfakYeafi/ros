@@ -1,0 +1,1 @@
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_teleop/lib/pkgconfig/turtlebot_teleop.pc

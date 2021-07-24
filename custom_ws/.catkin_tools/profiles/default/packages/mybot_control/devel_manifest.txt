@@ -1,0 +1,5 @@
+mybot_control
+/home/venom/ros/custom_ws/devel/.private/mybot_control/cmake.lock /home/venom/ros/custom_ws/devel/./cmake.lock
+/home/venom/ros/custom_ws/devel/.private/mybot_control/share/mybot_control/cmake/mybot_controlConfig-version.cmake /home/venom/ros/custom_ws/devel/share/mybot_control/cmake/mybot_controlConfig-version.cmake
+/home/venom/ros/custom_ws/devel/.private/mybot_control/share/mybot_control/cmake/mybot_controlConfig.cmake /home/venom/ros/custom_ws/devel/share/mybot_control/cmake/mybot_controlConfig.cmake
+/home/venom/ros/custom_ws/devel/.private/mybot_control/lib/pkgconfig/mybot_control.pc /home/venom/ros/custom_ws/devel/lib/pkgconfig/mybot_control.pc

@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/demo_ws/devel/share/slambot/cmake/slambotConfig.cmake
+Symlinking /home/venom/ros/demo_ws/devel/share/slambot/cmake/slambotConfig-version.cmake
+Symlinking /home/venom/ros/demo_ws/devel/lib/slambot/tf_broadcaster
+Symlinking /home/venom/ros/demo_ws/devel/lib/pkgconfig/slambot.pc

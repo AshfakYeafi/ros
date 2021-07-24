@@ -1,0 +1,1 @@
+/home/venom/ros/custom_ws/devel/.private/rur_detailed_description/lib/pkgconfig/rur_detailed_description.pc

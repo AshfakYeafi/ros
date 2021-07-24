@@ -1,0 +1,12 @@
+Symlinking /home/venom/ros/my_test_ws/devel/./cmake.lock
+Symlinking /home/venom/ros/my_test_ws/devel/./setup.sh
+Symlinking /home/venom/ros/my_test_ws/devel/./local_setup.bash
+Symlinking /home/venom/ros/my_test_ws/devel/./setup.zsh
+Symlinking /home/venom/ros/my_test_ws/devel/./setup.bash
+Symlinking /home/venom/ros/my_test_ws/devel/./local_setup.zsh
+Symlinking /home/venom/ros/my_test_ws/devel/./env.sh
+Symlinking /home/venom/ros/my_test_ws/devel/./local_setup.sh
+Symlinking /home/venom/ros/my_test_ws/devel/./_setup_util.py
+Symlinking /home/venom/ros/my_test_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/venom/ros/my_test_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/venom/ros/my_test_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/demo_ws/devel/.private/mobile_robot_base/setup.sh

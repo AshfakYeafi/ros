@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/my_test_ws/install/setup.sh

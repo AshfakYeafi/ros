@@ -1,0 +1,6 @@
+Tutorials-2020
+/home/venom/ros/urdf_practice_ws/devel/.private/tutorial/cmake.lock /home/venom/ros/urdf_practice_ws/devel/./cmake.lock
+/home/venom/ros/urdf_practice_ws/devel/.private/tutorial/share/tutorial/cmake/tutorialConfig-version.cmake /home/venom/ros/urdf_practice_ws/devel/share/tutorial/cmake/tutorialConfig-version.cmake
+/home/venom/ros/urdf_practice_ws/devel/.private/tutorial/share/tutorial/cmake/tutorialConfig.cmake /home/venom/ros/urdf_practice_ws/devel/share/tutorial/cmake/tutorialConfig.cmake
+/home/venom/ros/urdf_practice_ws/devel/.private/tutorial/lib/pkgconfig/tutorial.pc /home/venom/ros/urdf_practice_ws/devel/lib/pkgconfig/tutorial.pc
+/home/venom/ros/urdf_practice_ws/devel/.private/tutorial/lib/tutorial/my_publisher /home/venom/ros/urdf_practice_ws/devel/lib/tutorial/my_publisher

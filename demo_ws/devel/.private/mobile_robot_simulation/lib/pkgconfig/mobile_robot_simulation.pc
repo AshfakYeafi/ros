@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/demo_ws/devel/.private/mobile_robot_simulation
+
+Name: mobile_robot_simulation
+Description: Description of mobile_robot_simulation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

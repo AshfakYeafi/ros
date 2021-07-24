@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/demo_ws/devel/.private/slambot/setup.sh

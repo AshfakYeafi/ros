@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/demo2_ws/devel/.private/ar_bringup
+
+Name: ar_bringup
+Description: Description of ar_bringup
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib -lAR_bringup
+Requires: roscpp std_msgs sensor_msgs geometry_msgs nav_msgs

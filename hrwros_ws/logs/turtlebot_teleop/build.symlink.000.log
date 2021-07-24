@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_teleop/cmake/turtlebot_teleopConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_teleop/cmake/turtlebot_teleopConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/turtlebot_teleop.pc
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/turtlebot_teleop/turtlebot_teleop_joy

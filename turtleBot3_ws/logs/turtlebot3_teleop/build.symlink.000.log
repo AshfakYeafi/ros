@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/turtleBot3_ws/devel/share/turtlebot3_teleop/cmake/turtlebot3_teleopConfig-version.cmake
+Symlinking /home/venom/ros/turtleBot3_ws/devel/share/turtlebot3_teleop/cmake/turtlebot3_teleopConfig.cmake
+Symlinking /home/venom/ros/turtleBot3_ws/devel/lib/pkgconfig/turtlebot3_teleop.pc
+Symlinking /home/venom/ros/turtleBot3_ws/devel/lib/python2.7/dist-packages/turtlebot3_teleop/__init__.py

@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/share/ur_bringup/cmake/ur_bringupConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/ur_bringup/cmake/ur_bringupConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/ur_bringup.pc

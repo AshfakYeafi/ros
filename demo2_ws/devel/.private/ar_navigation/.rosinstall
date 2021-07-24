@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/demo2_ws/devel/.private/ar_navigation/setup.sh

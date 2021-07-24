@@ -1,0 +1,496 @@
+<?xml version="1.0" ?>
+<robot name="auro" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+
+<!-- <xacro:include filename="$(find auro_description)/urdf/auro.gazebo" /> -->
+
+
+<xacro:include filename="$(find auro_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find auro_description)/urdf/auro.trans" />
+<xacro:include filename="$(find auro_description)/gazebo/auro_material.gazebo" />
+<xacro:include filename="$(find auro_description)/gazebo/auro_physics.gazebo" />
+<xacro:include filename="$(find auro_description)/gazebo/auro_plugin.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-1.6741948695112564e-17 -8.370974347556282e-18 0.015"/>
+    <mass value="1.020167897667239233"/>
+    <inertia ixx="1.1e-05" ixy="-0.0" ixz="-0.0" iyy="2.3e-05" iyz="-0.0" izz="3.4e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_fl1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.034999999999999996 0.034999999999999996 0.006000000000000012"/>
+    <mass value="0.007352555678129874"/>
+    <inertia ixx="1e-06" ixy="-0.0" ixz="-0.0" iyy="1e-06" iyz="-0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fl1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fl1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_fr1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.034999999999999996 -0.035 0.006000000000000012"/>
+    <mass value="0.007352555678129874"/>
+    <inertia ixx="1e-06" ixy="0.0" ixz="-0.0" iyy="1e-06" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fr1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fr1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_bl1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.035 0.035 0.006000000000000012"/>
+    <mass value="0.007352555678129874"/>
+    <inertia ixx="1e-06" ixy="-0.0" ixz="0.0" iyy="1e-06" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_bl1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_bl1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_br1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.035 -0.035 0.006000000000000012"/>
+    <mass value="0.007352555678129874"/>
+    <inertia ixx="1e-06" ixy="0.0" ixz="0.0" iyy="1e-06" iyz="-0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_br1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_br1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="mid_plate_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.035 -0.035 0.04700000000000001"/>
+    <mass value="0.026871926921745795"/>
+    <inertia ixx="2.4e-05" ixy="-0.0" ixz="-0.0" iyy="2.4e-05" iyz="-0.0" izz="4.8e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.035 -0.035 -0.01"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/mid_plate_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.035 -0.035 -0.01"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/mid_plate_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_fl2_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.034999999999999996 0.035 0.06600000000000002"/>
+    <mass value="0.007352555678129875"/>
+    <inertia ixx="1e-06" ixy="0.0" ixz="-0.0" iyy="1e-06" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fl2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fl2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_fr2_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.034999999999999996 -0.035 0.06600000000000003"/>
+    <mass value="0.0073525556781298745"/>
+    <inertia ixx="1e-06" ixy="0.0" ixz="-0.0" iyy="1e-06" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fr2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_fr2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_bl2_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.035 0.034999999999999996 0.06600000000000003"/>
+    <mass value="0.0073525556781298745"/>
+    <inertia ixx="1e-06" ixy="0.0" ixz="-0.0" iyy="1e-06" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_bl2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_bl2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stanoff_br2_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.034999999999999996 -0.034999999999999996 0.06600000000000002"/>
+    <mass value="0.007352555678129875"/>
+    <inertia ixx="1e-06" ixy="-0.0" ixz="0.0" iyy="1e-06" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_br2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.012"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/stanoff_br2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="top_plate_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.035 -0.105 0.047000000000000035"/>
+    <mass value="0.026871926921745795"/>
+    <inertia ixx="2.4e-05" ixy="-0.0" ixz="-0.0" iyy="2.4e-05" iyz="-0.0" izz="4.8e-05"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.035 -0.105 -0.052"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/top_plate_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.035 -0.105 -0.052"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/top_plate_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lidar_v1_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.00021112268740727469 9.192633575897728e-05 0.0812681842472231"/>
+    <mass value="0.3392964352221826"/>
+    <inertia ixx="0.000619" ixy="-1e-06" ixz="-0.000159" iyy="0.000967" iyz="3e-06" izz="0.001105"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.054"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/lidar_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.054"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/lidar_v1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_motor_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="2.7070014932313314e-05 0.006829196237379608 -0.008494640498895197"/>
+    <mass value="0.020403723434111776"/>
+    <inertia ixx="2e-06" ixy="0.0" ixz="-0.0" iyy="0.0" iyz="-0.0" izz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.03 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/left_motor_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.03 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/left_motor_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_motor_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-2.7071556196283097e-05 -0.006829164377821984 -0.008494634838412188"/>
+    <mass value="0.02040379211788625"/>
+    <inertia ixx="2e-06" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 -0.03 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/right_motor_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 -0.03 -0.03"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/right_motor_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0"/>
+    <mass value="0.020021601354988396"/>
+    <inertia ixx="3e-06" ixy="0.0" ixz="-0.0" iyy="5e-06" iyz="-0.0" izz="3e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0499 -0.021"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/left_wheel_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0499 -0.021"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/left_wheel_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_link_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-7.404860110866705e-10 -0.007539748519609035 1.1148066488917557e-05"/>
+    <mass value="0.020021601354988396"/>
+    <inertia ixx="3e-06" ixy="0.0" ixz="0.0" iyy="5e-06" iyz="0.0" izz="3e-06"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0.0 -0.0499 -0.021"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/right_wheel_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0.0 -0.0499 -0.021"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/right_wheel_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_1">
+  <inertial>
+    <origin rpy="0 0 0" xyz="0.0475 1.0926221127947672e-18 -0.019885869565217387"/>
+    <mass value="0.005486987919035421"/>
+    <inertia ixx="0.0" ixy="-0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.028"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.028"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="caster_2">
+  <inertial>
+    <origin rpy="0 0 0" xyz="-0.0475 1.0926221127947672e-18 -0.019885869565217387"/>
+    <mass value="0.005486987919035421"/>
+    <inertia ixx="0.0" ixy="-0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.028"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/caster_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="-0.0 0.0 -0.028"/>
+    <geometry>
+      <mesh filename="package://auro_description/meshes/caster_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid1" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.03"/>
+  <parent link="base_link"/>
+  <child link="stanoff_fl1_1"/>
+</joint>
+
+<joint name="Rigid2" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.03"/>
+  <parent link="base_link"/>
+  <child link="stanoff_fr1_1"/>
+</joint>
+
+<joint name="Rigid3" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.03"/>
+  <parent link="base_link"/>
+  <child link="stanoff_bl1_1"/>
+</joint>
+
+<joint name="Rigid4" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.03"/>
+  <parent link="base_link"/>
+  <child link="stanoff_br1_1"/>
+</joint>
+
+<joint name="Rigid5" type="fixed">
+  <origin rpy="0 0 0" xyz="0.035 0.035 -0.02"/>
+  <parent link="stanoff_fl1_1"/>
+  <child link="mid_plate_1"/>
+</joint>
+
+<joint name="Rigid6" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.035 -0.035 0.002"/>
+  <parent link="mid_plate_1"/>
+  <child link="stanoff_fl2_1"/>
+</joint>
+
+<joint name="Rigid7" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.035 -0.035 0.002"/>
+  <parent link="mid_plate_1"/>
+  <child link="stanoff_fr2_1"/>
+</joint>
+
+<joint name="Rigid8" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.035 -0.035 0.002"/>
+  <parent link="mid_plate_1"/>
+  <child link="stanoff_bl2_1"/>
+</joint>
+
+<joint name="Rigid9" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.035 -0.035 0.002"/>
+  <parent link="mid_plate_1"/>
+  <child link="stanoff_br2_1"/>
+</joint>
+
+<joint name="Rigid10" type="fixed">
+  <origin rpy="0 0 0" xyz="0.035 0.105 0.04"/>
+  <parent link="stanoff_fl2_1"/>
+  <child link="top_plate_1"/>
+</joint>
+
+<joint name="Rigid20" type="fixed">
+  <origin rpy="0 0 0" xyz="-0.035 -0.105 0.002"/>
+  <parent link="top_plate_1"/>
+  <child link="lidar_v1_1"/>
+</joint>
+
+<joint name="Rigid22" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 -0.03 0.03"/>
+  <parent link="base_link"/>
+  <child link="left_motor_link_1"/>
+</joint>
+
+<joint name="Rigid23" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 0.03 0.03"/>
+  <parent link="base_link"/>
+  <child link="right_motor_link_1"/>
+</joint>
+
+<joint name="left_motor_joint" type="continuous">
+  <origin rpy="0 0 0" xyz="0.0 -0.0199 -0.009"/>
+  <parent link="left_motor_link_1"/>
+  <child link="left_wheel_link_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="right_motor_joint" type="continuous">
+  <origin rpy="0 0 0" xyz="-0.0 0.0199 -0.009"/>
+  <parent link="right_motor_link_1"/>
+  <child link="right_wheel_link_1"/>
+  <axis xyz="-0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Rigid26" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.028"/>
+  <parent link="base_link"/>
+  <child link="caster_1"/>
+</joint>
+
+<joint name="Rigid27" type="fixed">
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.028"/>
+  <parent link="base_link"/>
+  <child link="caster_2"/>
+</joint>
+
+
+</robot>

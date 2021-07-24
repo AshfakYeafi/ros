@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/share/ur3_e_moveit_config/cmake/ur3_e_moveit_configConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/ur3_e_moveit_config/cmake/ur3_e_moveit_configConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/ur3_e_moveit_config.pc

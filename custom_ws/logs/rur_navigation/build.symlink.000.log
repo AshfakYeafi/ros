@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/custom_ws/devel/share/rur_navigation/cmake/rur_navigationConfig.cmake
+Symlinking /home/venom/ros/custom_ws/devel/share/rur_navigation/cmake/rur_navigationConfig-version.cmake
+Symlinking /home/venom/ros/custom_ws/devel/lib/pkgconfig/rur_navigation.pc

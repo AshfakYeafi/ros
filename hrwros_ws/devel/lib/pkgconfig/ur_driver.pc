@@ -1,0 +1,1 @@
+/home/venom/ros/hrwros_ws/devel/.private/ur_driver/lib/pkgconfig/ur_driver.pc

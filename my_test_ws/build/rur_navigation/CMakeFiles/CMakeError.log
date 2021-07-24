@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9a6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9a6e.dir/build.make CMakeFiles/cmTC_c9a6e.dir/build
+make[1]: Entering directory '/home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9a6e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c9a6e.dir/CheckSymbolExists.c.o   -c /home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c9a6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9a6e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c9a6e.dir/CheckSymbolExists.c.o  -o cmTC_c9a6e 
+CMakeFiles/cmTC_c9a6e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c9a6e.dir/build.make:97: recipe for target 'cmTC_c9a6e' failed
+make[1]: *** [cmTC_c9a6e] Error 1
+make[1]: Leaving directory '/home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c9a6e/fast' failed
+make: *** [cmTC_c9a6e/fast] Error 2
+
+File /home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09eed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09eed.dir/build.make CMakeFiles/cmTC_09eed.dir/build
+make[1]: Entering directory '/home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09eed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_09eed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09eed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09eed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_09eed.dir/CheckFunctionExists.c.o  -o cmTC_09eed -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_09eed.dir/build.make:97: recipe for target 'cmTC_09eed' failed
+make[1]: *** [cmTC_09eed] Error 1
+make[1]: Leaving directory '/home/venom/ros/my_test_ws/build/rur_navigation/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_09eed/fast' failed
+make: *** [cmTC_09eed/fast] Error 2
+
+

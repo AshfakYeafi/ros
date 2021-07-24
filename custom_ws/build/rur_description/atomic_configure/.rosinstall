@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/custom_ws/devel/.private/rur_description/setup.sh

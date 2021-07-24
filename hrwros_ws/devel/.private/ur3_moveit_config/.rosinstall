@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/hrwros_ws/devel/.private/ur3_moveit_config/setup.sh

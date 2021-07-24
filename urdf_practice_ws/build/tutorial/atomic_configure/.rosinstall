@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/urdf_practice_ws/devel/.private/tutorial/setup.sh

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/hrwros_ws/devel/.private/kobuki_auto_docking/setup.sh

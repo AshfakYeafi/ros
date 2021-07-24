@@ -1,0 +1,1 @@
+/home/venom/ros/custom_ws/devel/.private/mybot_description/lib/pkgconfig/mybot_description.pc

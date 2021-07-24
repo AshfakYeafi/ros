@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/urdf_practice_ws/devel/share/tutorial/cmake/tutorialConfig-version.cmake
+Symlinking /home/venom/ros/urdf_practice_ws/devel/share/tutorial/cmake/tutorialConfig.cmake
+Symlinking /home/venom/ros/urdf_practice_ws/devel/lib/pkgconfig/tutorial.pc
+Symlinking /home/venom/ros/urdf_practice_ws/devel/lib/tutorial/my_publisher

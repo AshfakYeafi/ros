@@ -1,0 +1,1 @@
+/home/venom/ros/demo_ws/devel/.private/slambot/share/slambot/cmake/slambotConfig.cmake

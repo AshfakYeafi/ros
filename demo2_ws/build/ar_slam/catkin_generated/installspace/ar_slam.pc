@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/demo2_ws/install
+
+Name: ar_slam
+Description: Description of ar_slam
+Version: 0.1.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

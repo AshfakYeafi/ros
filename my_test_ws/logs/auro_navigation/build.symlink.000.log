@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/my_test_ws/devel/share/auro_navigation/cmake/auro_navigationConfig-version.cmake
+Symlinking /home/venom/ros/my_test_ws/devel/share/auro_navigation/cmake/auro_navigationConfig.cmake
+Symlinking /home/venom/ros/my_test_ws/devel/lib/pkgconfig/auro_navigation.pc

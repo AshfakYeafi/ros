@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/etc/catkin/profile.d/25.turtlebot.sh
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_bringup/cmake/turtlebot_bringupConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_bringup/cmake/turtlebot_bringupConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/turtlebot_bringup.pc

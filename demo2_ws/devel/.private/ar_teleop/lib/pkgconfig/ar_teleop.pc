@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/demo2_ws/devel/.private/ar_teleop
+
+Name: ar_teleop
+Description: Description of ar_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lAR_teleop
+Requires: geometry_msgs roscpp

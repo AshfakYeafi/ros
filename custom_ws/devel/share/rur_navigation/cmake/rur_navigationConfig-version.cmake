@@ -1,0 +1,1 @@
+/home/venom/ros/custom_ws/devel/.private/rur_navigation/share/rur_navigation/cmake/rur_navigationConfig-version.cmake

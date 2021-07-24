@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/custom_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+Symlinking /home/venom/ros/custom_ws/devel/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+Symlinking /home/venom/ros/custom_ws/devel/lib/pkgconfig/mybot_description.pc

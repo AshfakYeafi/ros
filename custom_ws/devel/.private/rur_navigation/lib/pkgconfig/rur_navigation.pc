@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/custom_ws/devel/.private/rur_navigation
+
+Name: rur_navigation
+Description: Description of rur_navigation
+Version: 1.2.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,6 @@
+devel_space: /home/venom/ros/demo_ws/devel
+install: false
+install_space: /home/venom/ros/demo_ws/install
+profile: default
+source_space: /home/venom/ros/demo_ws/src
+workspace: /home/venom/ros/demo_ws

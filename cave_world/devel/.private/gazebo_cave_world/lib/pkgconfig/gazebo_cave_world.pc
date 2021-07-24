@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/cave_world/devel/.private/gazebo_cave_world
+
+Name: gazebo_cave_world
+Description: Description of gazebo_cave_world
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

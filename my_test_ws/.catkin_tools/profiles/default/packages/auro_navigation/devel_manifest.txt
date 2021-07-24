@@ -1,0 +1,5 @@
+auro_navigation
+/home/venom/ros/my_test_ws/devel/.private/auro_navigation/cmake.lock /home/venom/ros/my_test_ws/devel/./cmake.lock
+/home/venom/ros/my_test_ws/devel/.private/auro_navigation/share/auro_navigation/cmake/auro_navigationConfig-version.cmake /home/venom/ros/my_test_ws/devel/share/auro_navigation/cmake/auro_navigationConfig-version.cmake
+/home/venom/ros/my_test_ws/devel/.private/auro_navigation/share/auro_navigation/cmake/auro_navigationConfig.cmake /home/venom/ros/my_test_ws/devel/share/auro_navigation/cmake/auro_navigationConfig.cmake
+/home/venom/ros/my_test_ws/devel/.private/auro_navigation/lib/pkgconfig/auro_navigation.pc /home/venom/ros/my_test_ws/devel/lib/pkgconfig/auro_navigation.pc

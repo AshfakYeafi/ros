@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/demo2_ws/devel/.private/ar_navigation
+
+Name: ar_navigation
+Description: Description of ar_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

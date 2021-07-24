@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/custom_ws/devel/share/rur_gazebo/cmake/rur_gazeboConfig.cmake
+Symlinking /home/venom/ros/custom_ws/devel/share/rur_gazebo/cmake/rur_gazeboConfig-version.cmake
+Symlinking /home/venom/ros/custom_ws/devel/lib/pkgconfig/rur_gazebo.pc

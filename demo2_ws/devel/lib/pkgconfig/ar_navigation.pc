@@ -1,0 +1,1 @@
+/home/venom/ros/demo2_ws/devel/.private/ar_navigation/lib/pkgconfig/ar_navigation.pc

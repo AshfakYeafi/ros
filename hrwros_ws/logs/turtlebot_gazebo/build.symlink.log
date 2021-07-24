@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/etc/catkin/profile.d/25.turtlebot-gazebo.sh
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_gazebo/cmake/turtlebot_gazeboConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_gazebo/cmake/turtlebot_gazeboConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/turtlebot_gazebo.pc

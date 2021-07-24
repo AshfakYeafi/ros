@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/share/hrwros_utilities/cmake/hrwros_utilitiesConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/hrwros_utilities/cmake/hrwros_utilitiesConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/hrwros_utilities.pc
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/python2.7/dist-packages/hrwros_utilities/__init__.py

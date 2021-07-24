@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/my_test_ws/devel/.private/auro_navigation
+
+Name: auro_navigation
+Description: Description of auro_navigation
+Version: 1.2.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target my_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_publisher.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/venom/ros/urdf_practice_ws/devel/.private/tutorial/lib/tutorial/my_publisher[0m
+[100%] Built target my_publisher

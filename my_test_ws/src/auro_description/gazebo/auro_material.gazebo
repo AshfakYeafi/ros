@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<robot name="auro" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Silver" />
+<xacro:property name="wheel_color" value="Gazebo/White" />
+<xacro:property name="lidar_color" value="Gazebo/Grey" />
+<xacro:property name="scru_color" value="Gazebo/DarkYellow" />
+<xacro:property name="plate_color" value="Gazebo/FlatBlack" />
+<xacro:property name="motor_color" value="Gazebo/Purple" />
+<xacro:property name="caster_color" value="Gazebo/Orange" />
+<xacro:property name="body_color" value="Gazebo/Silver" />
+<xacro:property name="body_color" value="Gazebo/Silver" />
+<xacro:property name="body_color" value="Gazebo/Silver" />
+
+
+<gazebo reference="base_link">
+  <material>${plate_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_fl1_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_fr1_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_bl1_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_br1_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="mid_plate_1">
+  <material>${plate_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_fl2_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_fr2_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_bl2_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="stanoff_br2_1">
+  <material>${scru_color}</material>
+</gazebo>
+
+<gazebo reference="top_plate_1">
+  <material>${plate_color}</material>
+</gazebo>
+
+<gazebo reference="lidar_v1_1">
+  <material>${lidar_color}</material>
+</gazebo>
+
+<gazebo reference="left_motor_link_1">
+  <material>${motor_color}</material>
+</gazebo>
+
+<gazebo reference="right_motor_link_1">
+  <material>${motor_color}</material>
+</gazebo>
+
+<gazebo reference="left_wheel_link_1">
+  <material>${wheel_color}</material>
+</gazebo>
+
+<gazebo reference="right_wheel_link_1">
+  <material>${wheel_color}</material>
+</gazebo>
+
+<gazebo reference="caster_1">
+  <material>${caster_color}</material>
+</gazebo>
+
+<gazebo reference="caster_2">
+  <material>${caster_color}</material>
+</gazebo>
+
+</robot>

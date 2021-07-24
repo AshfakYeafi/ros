@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/venom/ros/hrwros_ws/devel/.private/ur_gazebo/setup.sh

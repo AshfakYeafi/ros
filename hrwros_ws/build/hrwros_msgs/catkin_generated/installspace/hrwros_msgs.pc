@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/hrwros_ws/install
+
+Name: hrwros_msgs
+Description: Description of hrwros_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp geometry_msgs std_msgs trajectory_msgs moveit_msgs actionlib_msgs

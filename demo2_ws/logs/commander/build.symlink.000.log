@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/demo2_ws/devel/share/commander/cmake/commanderConfig-version.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/share/commander/cmake/commanderConfig.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/lib/pkgconfig/commander.pc
+Symlinking /home/venom/ros/demo2_ws/devel/lib/commander/example_node_kalman_filter

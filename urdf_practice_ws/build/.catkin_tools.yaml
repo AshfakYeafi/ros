@@ -1,0 +1,6 @@
+devel_space: /home/venom/ros/urdf_practice_ws/devel
+install: false
+install_space: /home/venom/ros/urdf_practice_ws/install
+profile: default
+source_space: /home/venom/ros/urdf_practice_ws/src
+workspace: /home/venom/ros/urdf_practice_ws

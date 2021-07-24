@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<robot name="auro" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<material name="silver">
+  <color rgba="1 0 1 1.000"/>
+</material>
+
+</robot>

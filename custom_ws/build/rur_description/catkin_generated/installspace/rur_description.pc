@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/custom_ws/install
+
+Name: rur_description
+Description: Description of rur_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

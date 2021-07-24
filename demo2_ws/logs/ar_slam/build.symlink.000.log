@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_slam/cmake/ar_slamConfig-version.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_slam/cmake/ar_slamConfig.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/lib/pkgconfig/ar_slam.pc

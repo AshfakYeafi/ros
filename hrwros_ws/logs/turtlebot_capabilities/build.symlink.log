@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_capabilities/cmake/turtlebot_capabilitiesConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/turtlebot_capabilities/cmake/turtlebot_capabilitiesConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/turtlebot_capabilities.pc

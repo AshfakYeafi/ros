@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/demo2_ws/install
+
+Name: simulation_environment
+Description: Description of simulation_environment
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs geometry_msgs sensor_msgs nav_msgs

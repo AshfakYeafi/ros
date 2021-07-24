@@ -1,0 +1,3 @@
+Symlinking /home/venom/ros/hrwros_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+Symlinking /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/kobuki_description.pc

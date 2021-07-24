@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_teleop/cmake/ar_teleopConfig.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_teleop/cmake/ar_teleopConfig-version.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/lib/pkgconfig/ar_teleop.pc
+Symlinking /home/venom/ros/demo2_ws/devel/lib/ar_teleop/AR_teleop_key

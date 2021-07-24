@@ -1,0 +1,12 @@
+Symlinking /home/venom/ros/cave_world/devel/./cmake.lock
+Symlinking /home/venom/ros/cave_world/devel/./setup.sh
+Symlinking /home/venom/ros/cave_world/devel/./local_setup.bash
+Symlinking /home/venom/ros/cave_world/devel/./setup.zsh
+Symlinking /home/venom/ros/cave_world/devel/./setup.bash
+Symlinking /home/venom/ros/cave_world/devel/./local_setup.zsh
+Symlinking /home/venom/ros/cave_world/devel/./env.sh
+Symlinking /home/venom/ros/cave_world/devel/./local_setup.sh
+Symlinking /home/venom/ros/cave_world/devel/./_setup_util.py
+Symlinking /home/venom/ros/cave_world/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/venom/ros/cave_world/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/venom/ros/cave_world/devel/lib/pkgconfig/catkin_tools_prebuild.pc

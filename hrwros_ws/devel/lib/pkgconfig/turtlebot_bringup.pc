@@ -1,0 +1,1 @@
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_bringup/lib/pkgconfig/turtlebot_bringup.pc

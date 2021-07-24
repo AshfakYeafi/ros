@@ -1,0 +1,7 @@
+set(hrwros_utilities_SETUP_PY_SETUP_MODULE "distutils.core")
+set(hrwros_utilities_SETUP_PY_VERSION "0.1.0")
+set(hrwros_utilities_SETUP_PY_SCRIPTS "")
+set(hrwros_utilities_SETUP_PY_PACKAGES "hrwros_utilities")
+set(hrwros_utilities_SETUP_PY_PACKAGE_DIRS "src/hrwros_utilities")
+set(hrwros_utilities_SETUP_PY_MODULES "")
+set(hrwros_utilities_SETUP_PY_MODULE_DIRS "")

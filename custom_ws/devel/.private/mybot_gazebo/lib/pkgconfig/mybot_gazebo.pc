@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/custom_ws/devel/.private/mybot_gazebo
+
+Name: mybot_gazebo
+Description: Description of mybot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

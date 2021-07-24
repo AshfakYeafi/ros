@@ -1,0 +1,1 @@
+/home/venom/ros/urdf_practice_ws/devel/.private/tutorial/lib/pkgconfig/tutorial.pc

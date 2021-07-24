@@ -1,0 +1,6 @@
+turtlebot_simulator/turtlebot_stdr
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_stdr/cmake.lock /home/venom/ros/hrwros_ws/devel/./cmake.lock
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_stdr/etc/catkin/profile.d/25.turtlebot-stdr.sh /home/venom/ros/hrwros_ws/devel/etc/catkin/profile.d/25.turtlebot-stdr.sh
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_stdr/share/turtlebot_stdr/cmake/turtlebot_stdrConfig.cmake /home/venom/ros/hrwros_ws/devel/share/turtlebot_stdr/cmake/turtlebot_stdrConfig.cmake
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_stdr/share/turtlebot_stdr/cmake/turtlebot_stdrConfig-version.cmake /home/venom/ros/hrwros_ws/devel/share/turtlebot_stdr/cmake/turtlebot_stdrConfig-version.cmake
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_stdr/lib/pkgconfig/turtlebot_stdr.pc /home/venom/ros/hrwros_ws/devel/lib/pkgconfig/turtlebot_stdr.pc

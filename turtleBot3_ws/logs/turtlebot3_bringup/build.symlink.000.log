@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/turtleBot3_ws/devel/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+Symlinking /home/venom/ros/turtleBot3_ws/devel/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+Symlinking /home/venom/ros/turtleBot3_ws/devel/lib/pkgconfig/turtlebot3_bringup.pc
+Symlinking /home/venom/ros/turtleBot3_ws/devel/lib/turtlebot3_bringup/turtlebot3_diagnostics

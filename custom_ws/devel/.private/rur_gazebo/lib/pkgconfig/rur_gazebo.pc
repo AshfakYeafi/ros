@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/custom_ws/devel/.private/rur_gazebo
+
+Name: rur_gazebo
+Description: Description of rur_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros geometry_msgs nav_msgs roscpp rospy sensor_msgs std_msgs tf

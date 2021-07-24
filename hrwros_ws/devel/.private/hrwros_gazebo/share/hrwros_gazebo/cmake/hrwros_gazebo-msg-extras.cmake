@@ -1,0 +1,2 @@
+set(hrwros_gazebo_MESSAGE_FILES "/home/venom/ros/hrwros_ws/src/hrwros_gazebo/msg/ConveyorBeltState.msg;/home/venom/ros/hrwros_ws/src/hrwros_gazebo/msg/VacuumGripperState.msg;/home/venom/ros/hrwros_ws/src/hrwros_gazebo/msg/Proximity.msg;/home/venom/ros/hrwros_ws/src/hrwros_gazebo/msg/Model.msg;/home/venom/ros/hrwros_ws/src/hrwros_gazebo/msg/LogicalCameraImage.msg")
+set(hrwros_gazebo_SERVICE_FILES "/home/venom/ros/hrwros_ws/src/hrwros_gazebo/srv/ConveyorBeltControl.srv;/home/venom/ros/hrwros_ws/src/hrwros_gazebo/srv/VacuumGripperControl.srv")

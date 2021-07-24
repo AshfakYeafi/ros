@@ -1,0 +1,1 @@
+/home/venom/ros/hrwros_ws/devel/.private/turtlebot_stdr/lib/pkgconfig/turtlebot_stdr.pc

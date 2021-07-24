@@ -1,0 +1,4 @@
+Symlinking /home/venom/ros/turtleBot3_ws/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+Symlinking /home/venom/ros/turtleBot3_ws/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+Symlinking /home/venom/ros/turtleBot3_ws/devel/lib/pkgconfig/turtlebot3_gazebo.pc
+Symlinking /home/venom/ros/turtleBot3_ws/devel/lib/turtlebot3_gazebo/turtlebot3_drive

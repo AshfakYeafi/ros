@@ -1,0 +1,1 @@
+/home/venom/ros/demo_ws/devel/.private/mobile_robot_description/lib/pkgconfig/mobile_robot_description.pc

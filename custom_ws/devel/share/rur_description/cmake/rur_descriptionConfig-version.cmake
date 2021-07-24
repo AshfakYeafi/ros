@@ -1,0 +1,1 @@
+/home/venom/ros/custom_ws/devel/.private/rur_description/share/rur_description/cmake/rur_descriptionConfig-version.cmake

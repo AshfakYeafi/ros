@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target turtlebot_teleop_joy[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlebot_teleop_joy.dir/src/turtlebot_joy.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/venom/ros/hrwros_ws/devel/.private/turtlebot_teleop/lib/turtlebot_teleop/turtlebot_teleop_joy[0m
+[100%] Built target turtlebot_teleop_joy

@@ -1,0 +1,8 @@
+prefix=/home/venom/ros/my_test_ws/devel/.private/auro_description
+
+Name: auro_description
+Description: Description of auro_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

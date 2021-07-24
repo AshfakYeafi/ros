@@ -1,0 +1,10 @@
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_bringup/cmake/ar_bringupConfig.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_bringup/cmake/ar_bringupConfig-version.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_bringup/cmake/ar_bringup-msg-paths.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/share/ar_bringup/cmake/ar_bringup-msg-extras.cmake
+Symlinking /home/venom/ros/demo2_ws/devel/share/roseus/ros/ar_bringup/manifest.l
+Symlinking /home/venom/ros/demo2_ws/devel/lib/pkgconfig/ar_bringup.pc
+Symlinking /home/venom/ros/demo2_ws/devel/lib/python2.7/dist-packages/ar_bringup/__init__.py
+Symlinking /home/venom/ros/demo2_ws/devel/lib/ar_bringup/twist_to_motors
+Symlinking /home/venom/ros/demo2_ws/devel/lib/ar_bringup/diff_tf
+Symlinking /home/venom/ros/demo2_ws/devel/lib/ar_bringup/pid_velocity
