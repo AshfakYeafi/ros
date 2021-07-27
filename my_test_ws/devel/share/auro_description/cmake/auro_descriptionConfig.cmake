@@ -1,1 +1,0 @@
-/home/venom/ros/my_test_ws/devel/.private/auro_description/share/auro_description/cmake/auro_descriptionConfig.cmake

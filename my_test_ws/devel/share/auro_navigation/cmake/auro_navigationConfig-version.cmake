@@ -1,1 +1,0 @@
-/home/venom/ros/my_test_ws/devel/.private/auro_navigation/share/auro_navigation/cmake/auro_navigationConfig-version.cmake
